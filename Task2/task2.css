@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 550px;
+    margin: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+}
+#logo{
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    color:white;
+    margin-left: 50px;
+}
+nav span{
+    color:darkorange;
+    font-weight: lighter;
+}
+ nav ul{
+    float:right;
+    list-style: none;
+    margin-right: 80px;
+}
+li a{
+    text-decoration: none;
+    color:white;
+}
+li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+#section{
+    background-image:url('t.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.container{
+    width: 1000px;
+    border-radius: 10px;
+    height: 100%;
+    font-size: 0;
+}
+.left, .right{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height:100%;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 80px;
+}
+.left h1{
+    font-size: 35px;
+    font-weight: bold;
+    color:white;
+}
+.left h1 span{
+    font-weight: lighter;
+    color:darkorange;
+}
+#description{
+    color:white;
+    text-align: center;
+    font-size: 24px;
+}
+hr{
+    color: white;
+    width:50px;
+    height: 2px;
+    margin: 20px 20px 20px 20px;
+}
+p{
+    color: white;
+    font-size: 12px;
+}
+#left_button{
+    margin-top: 20px;
+    background: transparent;
+    color:white;
+    border:2px solid white;
+    padding: 10px 20px;
+}
+.right{
+    background-color: white;
+    width: 30%;
+    height:60%;
+    margin-top:50px;
+    margin-left: 110px;
+    padding: 30px 20px 20px 20px;
+}
+.right h2{
+    color:black;
+    background-color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.right h2 span{
+    color: darkorange;
+}
+.right input{
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 35px;
+    width: 100%; 
+}
+.right button{
+    width:100%;
+    background: orange;
+    color:white;
+    padding:10px;
+    font-size: 16px;
+    border:none;
+    width:100%;
+}
